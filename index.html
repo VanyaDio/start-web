@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <title>My page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #c7c7c7;
+    }
+
+    a {
+      text-decoration: none;
+      color: #f00;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .my-class {
+      max-width: 500px;
+      height: 100px;
+      background-color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hello!</h1>
+  <ul>
+    <li><a href="#">1 bla bla bla</a></li>
+    <li><a href="#">2 bla bla bla</a></li>
+    <li><a href="#">3 bla bla bla</a></li>
+    <li><a href="#">4 bla bla bla</a></li>
+    <li><a href="#">5 bla bla bla</a></li>
+    <li><a href="#">6 bla bla bla</a></li>
+  </ul>
+
+  <div>
+    <label for="myname">Имяяяяяяяяяяяяяяяяяяяяя</label>
+    <input type="text" id="myname">
+  </div>
+
+  <div>
+    <label>
+      <input type="radio" name="params" value="1">
+      1
+    </label>
+    <label>
+      <input type="radio" name="params" value="2">
+      2
+    </label>
+    <label>
+      <input type="radio" name="params" value="3">
+      3
+    </label>
+  </div>
+
+  <div>
+    <label>
+      <input type="checkbox">
+      воть
+    </label>
+  </div>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo consequatur repellendus alias quas dignissimos nam modi eveniet neque ratione corporis odit, ab, amet molestiae dolores. Beatae quo, accusamus dicta omnis.</p>
+
+  <div class="my-class">block</div>
+
+  <script>
+    let myname = prompt('введите имя', 'Иван');
+    alert('Привет ' + myname);
+    let age = +prompt('Сколько тебе лет,');
+    if (age < 18) {
+      alert('У тебя еще всё в переди!')
+    } else if (age >= 18) {
+      alert('Добро пожаловать в команду!')
+    } else {
+      alert('Неправильный возраст, попробуй еще раз.')
+    }
+  </script>
+</body></html>
